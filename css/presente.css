@@ -40,7 +40,7 @@ label{
 
 #mascote{
     position: fixed;
-    top: calc(100vh - 13vh);
-    left: calc(100vw - 25vw);
-    width: 25%;
+    top: calc(100vh - 15vh);
+    left: calc(100vw - 35vw);
+    width: 50%;
 }
