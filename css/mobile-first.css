@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400&display=swap');
+
+*{
+    font-family: 'Fredoka One', cursive;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2em;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body, html{
+    height: 100vh;
+}
+
+body{
+    background: black url(https://i.pinimg.com/originals/7d/51/6c/7d516cfe1362de2009e7b74881385792.jpg) no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-position: top;
+}
+
+main{
+    background-color: rgba(128, 128, 128, 0.815);
+    width: 90vw;
+    margin: 20px auto;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+h1{
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.61);
+    margin: 10px;
+}
+
+p{
+    text-align: center;
+    color: black;
+    text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.61);
+    margin: 10px;
+}
+
+div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+img{
+    width: 85%;
+}
+
+button{
+
+    width: 150px;
+    height: 40px;
+
+    border-radius: 10px;
+    border-style: none;
+
+    color: white;
+    background-color: blueviolet;
+
+    cursor: pointer;
+
+    font-size: 0.6em;
+}
+
+a{
+    text-decoration: none;
+    font-size: 1em;
+    color: white;
+}
